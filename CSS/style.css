@@ -1,0 +1,146 @@
+body{
+    background-image: url(../IMG/Fondo.png);
+    background-attachment: fixed;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Screen{
+    visibility: hidden;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgb(0 0 0 / 80%); 
+    padding: 15vh;
+    width: 50vw;
+    height: 40vh;
+    margin: 15vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    align-items: center;
+}
+
+main{ 
+    margin: 0;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#DivSuperior{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.material-symbols-outlined {
+    background-color: white;
+    padding: 5%;
+    border-radius: 50%;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+h1{
+    font-size: 4vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    white-space: nowrap;
+}
+
+h2{
+    font-size: 4vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+#DivBotones{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#DivBotonesSocios{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2vh;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#BtnSuperior {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+#BtnInferiorIz {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#BtnInferiorDe {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 2vh 5vw 2vh 5vw;
+    width: 100%;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 2vw;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    transition: all 0.1s ease;
+}
+
+.BotonesNegros:hover {
+  background-color: #585858;
+  color: #ffffff;
+}
+.BotonesNegros{
+    background-color: #020202;
+    color: white;
+}
+.BotonesVerdes:hover {
+  background-color: #09b95b;
+  color: #ffffff;
+}
+.BotonesVerdes{
+    background-color: #04a550;
+    color: white;
+}
+.BotonesBlancos:hover {
+    background-color: rgb(202, 202, 202);
+    color: rgb(71, 71, 71);
+}
+.BotonesBlancos{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+#LogoCVM{
+    width: 5vw;
+    height: 10vh;
+}
