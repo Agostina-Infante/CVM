@@ -6,7 +6,7 @@ body{
     font-style: normal;
 }
 
-#Screen{
+.Screen{
     visibility: hidden;
     position: fixed;
     z-index: 9999;
@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     gap: 10vh;
     align-items: center;
+    justify-content: center;
 }
 
 main{ 
